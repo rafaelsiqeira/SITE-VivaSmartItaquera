@@ -1,0 +1,680 @@
+@font-face {font-family: "FS Joey Regular";
+    src: url("../font/FS\ Joey\ Regular.eot") format("embedded-opentype"),
+    url("../font/FS\ Joey\ Regular.woff2") format("woff2"),
+    url("../font/FS\ Joey\ Regular.woff") format("woff"),
+    url("../font/FS\ Joey\ Regular.ttf") format("truetype"),
+    url("../font/FS\ Joey\ Regular.svg") format("svg"),
+    url("../font/FS\ Joey\ Regular.otf") format("otf");
+}
+
+@font-face {font-family: "FS Joey Bold";
+    src: url("../font/FS\ Joey\ Bold.eot") format("embedded-opentype"),
+    url("../font/FS\ Joey\ Bold.woff2") format("woff2"),
+    url("../font/FS\ Joey\ Bold.woff") format("woff"),
+    url("../font/FS\ Joey\ Bold.ttf") format("truetype"),
+    url("../font/FS\ Joey\ Bold.svg") format("svg"),
+    url("../font/FS\ Joey\ Bold.otf") format("otf");
+}
+
+.navbar .nav-item {
+    text-transform: uppercase;
+    margin: 0 15px;
+}
+
+.navbar .link-whatsapp{
+    position: absolute;
+    right: 0;
+    top: 8vh;
+}
+
+.navbar {
+    box-shadow: 0 -10px 25px 5px #000;
+}
+
+.navbar.sticky-top {
+    background: #fff;
+}
+
+.link-whatsapp {
+    text-align: right;
+}
+
+.link-whatsapp img {
+    width: 70%;
+}
+
+body{
+    font-family: "FS Joey Regular";
+    font-size: 22px;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "FS Joey Bold";
+}
+
+h2{
+    font-size: 42px;
+    color: #fff;
+    line-height: 1;
+}
+
+section:not(.lazer-completo, .condominio-clube01, .condominio-clube02, .distancia, .mapa, .incorp-const, .inloop) h2{
+    color: #f0535c;
+}
+
+.form-cadastro h2,
+.condominio-clube01 h2,
+.condominio-clube02 h2,
+.aptos h2,
+.solucoes h2,
+.incorp-const h2,
+.inloop h2,
+.solucoes h3,
+.solucoes .col-sm-4,
+.aptos .col-sm,
+.distancia .col-sm.align-self-center,
+.footer p,
+.title-tour-video{
+    text-align: center;
+}
+
+.nav-link{
+    color: #000;
+}
+
+
+.item{
+    transition: .5s ease-in-out;
+}
+
+.item:hover{
+    filter: brightness(80%);
+}
+
+
+.owl-carousel .owl-item img{
+    height: 400px;
+}
+
+/* ----- SEÇÃO 2 TORRES ----- */
+.detail-title{
+    color: #6d6e71;
+    font-family: "FS Joey Regular";
+}
+
+.programa-casa-verde-amarela .col-sm-6:last-child{
+    padding-left: 70px;
+}
+
+.programa-casa-verde-amarela h2,
+.tour-virtual h2 {
+    margin-bottom: 50px;
+}
+
+.programa-casa-verde-amarela .row:first-child {
+    min-height: 120px;
+}
+
+.programa-casa-verde-amarela .img-2-torre {
+    margin-bottom: -8vh;
+}
+
+.programa-casa-verde-amarela {
+    padding-top: 120px;
+}
+
+
+/* ----- SEÇÃO DE FORMULÁRIO ----- */
+.form-cadastro.after-banner{
+    padding: 170px 0;
+}
+
+.form-cadastro .row:last-child{
+    background-color: #6d6e71;
+    border-radius: 50px;
+}
+
+.form-cadastro .row:last-child > div {
+    margin: 50px 0;
+}
+
+.form-cadastro .row:last-child > div:first-child {
+    border-right: 6px solid #fff;
+}
+
+.form-cadastro .row:last-child > .align-self-center {
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 50px;
+    padding: 15px 30px;
+}
+
+.form-cadastro h2{
+    text-transform: uppercase;
+}
+
+.form-cadastro .btn-whatsapp {
+    width: 70%;
+}
+
+
+button[type="submit"].btn {
+    background-color: #f0535c;
+    border-color: #f0535c;
+    padding: 15px 150px;
+    border-radius: 30px;
+    margin: 0 auto;
+    display: block;
+}
+
+.form-row {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.form-group.sec-nome,
+.form-group.sec-sobrenome,
+.form-group.sec-email,
+.form-group.sec-telefone {
+    float: left;
+}
+
+.item::before{
+    content: url(../img/detail-fancybox.png);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    pointer-events: none;
+}
+
+.item{
+    position: relative;
+}
+
+
+
+/* ----- SEÇÃO LAZER COMPLETO ----- */
+.lazer-completo{
+    background-image: url(../img/bg-lazer-completo.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 950px;
+    position: relative;
+}
+
+.img-lazer-completo{
+    position: relative;
+    left: -10vw;
+    top: -10vh;
+}
+
+.txt-detail{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    background-color: #f0535c;
+    color: #fff;
+    padding: 10px 25px;
+    text-transform: uppercase;
+}
+
+
+/* ----- SEÇÃO ESPAÇOS ----- */
+.list-espacos .solucoes-inteligentes h2 {
+    color: #fff;
+    padding-left: 200px;
+    position: relative;
+}
+
+.list-espacos .solucoes-inteligentes h2:before {
+    content: '50';
+    font-size: 200px;
+    position: absolute;
+    top: -36%;
+    left: -5%;
+}
+
+.owl-nav{
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 100%;
+}
+
+.owl-prev{
+    position: absolute;
+    left: -50px;
+}
+
+.owl-next{
+    position: absolute;
+    right: -50px;
+}
+
+.owl-nav > button > span{
+    font-size: 120px;
+}
+
+.carousel-espacos .row{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.carousel-espacos{
+    margin-top: -100px;
+    padding-bottom: 70px;
+}
+
+.carousel-espacos,
+.list-espacos{
+    background-color: #f0535c;
+}
+
+.list-espacos article {
+    width: 50%;
+    float: left;
+}
+
+.list-espacos article ul {
+    list-style: none;
+    padding: 0;
+    color: #fff;
+}
+
+.img-espacos{
+    margin-bottom: -15vh;
+}
+
+
+/* ----- SEÇÃO CONDOMINIO CLUBE ----- */
+.condominio-clube01{
+    padding: 400px 0;
+}
+
+.condominio-clube02{
+    padding: 200px 0;
+}
+
+.condominio-clube01{
+    background-image: url(../img/bg-condominio-clube-full.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+/* ----- SEÇÃO INCORPORAÇÃO E CONSTRUÇÃO ----- */
+.incorp-const{
+    text-align: center;
+    color: #fff;
+}
+
+.incorp-const .container{
+    width: 55%;
+}
+
+
+
+/* ----- SEÇÃO WIDGET ----- */
+.widgets{
+    text-align: center;
+}
+
+
+
+
+/* ----- SEÇÃO TOUR VIRTUAL ----- */
+.txt-tour{
+    z-index: 2;
+}
+
+.imgs-tour div:first-child a > img{
+    margin-left: 40px;
+}
+
+.imgs-tour div:last-child a > img{
+    margin-left: -40px;
+}
+
+.tour-virtual .item:first-child:before {
+    margin-left: 40px;
+}
+
+.tour-virtual .item:last-child:before {
+    margin-left: -40px;
+}
+
+.abas-tour .nav-item{
+    margin: 0 auto;
+}
+
+.abas-tour .nav-link.active {
+    background: transparent;
+    color: #000;
+}
+
+.abas-tour .nav-pills {
+    background: #f0efee;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+/* ----- SEÇÃO APARTAMENTOS ----- */
+
+.aptos{
+    background-color: #f0efee;
+    padding: 70px 0;
+}
+
+
+
+
+/* ----- SEÇÃO DISTANCIA ----- */
+.distancia h3{
+    color:#000;
+}
+
+.distancia{
+    background-image: url(../img/bg-distancia.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -65vh;
+    padding-top: 70px;
+    color: #fff;
+}
+
+
+.distancia .txt-detail{
+    position: initial;
+}
+
+
+
+/* ----- SEÇÃO SOLUÇÕES ----- */
+.solucoes{
+    margin: 130px 0;
+}
+
+.solucoes article {
+    width: 50%;
+    float: left;
+    text-align: center;
+    color: #FFF;
+    padding: 70px 0;
+}
+
+.solucoes .planejamento{
+    background-image: url(../img/bg-planejamento-arquitetura.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: -10vw;
+}
+
+.solucoes .meio-ambiente{
+    background-image: url(../img/bg-meio-ambiente.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.solucoes .pessoas{
+    background-image: url(../img/bg-pessoas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: -10vw;
+    margin-left: -4.5vw;
+}
+
+.solucoes .tecnologia{
+    background-image: url(../img/bg-tecnologia.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-left: -3.5vw;
+}
+
+.solucoes article span {
+    cursor: pointer;
+}
+
+.solucoes .circle-solucoes{
+    margin-top: 70px;
+}
+
+
+
+
+.banner, .programa-casa-verde-amarela{
+    background-color: #f0efee;
+}
+
+.banner {
+    max-height: 55vw;
+}
+
+
+.container-fluid.inloop {
+    background-color: #0fb3b1;
+}
+
+.container-fluid.incorp-const{
+    background-color: #e9530d;
+}
+
+.condominio-clube02{
+    background-image: url(../img/bg-condominio-clube.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.container-fluid.mapa{
+    background-color: #a43840;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.form-control::placeholder {
+    font-weight: 700;
+    color: #000;
+}
+
+
+
+
+
+
+/* ----- RESPONSIVO ----- */
+@media only screen and (max-width: 375px){
+    /*.mapa iframe{
+        width: 300px;
+    }*/
+}
+
+@media only screen and (max-width: 576px) {
+    .lazer-completo .img-lazer-completo {
+        width: 100%;
+    }
+
+    .lazer-completo {
+        min-height: 700px;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .list-espacos .solucoes-inteligentes h2 {
+        color: #fff;
+        padding-left: 0;
+        padding-top: 100px;
+        margin-top: 80px;
+        position: relative;
+    }
+
+    .programa-casa-verde-e-amarela,
+    .minha-casa-minha-vida,
+    .img-solucoes,
+    .btn-whatsapp,
+    .incorp-const .container{
+        width: 100%;
+    }
+
+    .programa-casa-verde-amarela .img-2-torre {
+        margin-bottom: 30px;
+    }
+
+    .btn-chat{
+        width: 60%;
+    }
+
+    button[type="submit"].btn {
+        padding: 15px 100px;
+    }
+
+    .imgs-tour div a > img,
+    .imgs-tour div:first-child a > img,
+    .imgs-tour div:last-child a > img {
+        margin: 0 !important;
+    }
+
+    .imgs-tour div:first-child a > img {
+        margin-left: 0;
+    }
+
+    .imgs-tour{
+        margin-top: 30px;
+    }
+
+    .solucoes article {
+        width: 100%;
+        float: none;
+        margin: 0 !important;
+        padding: 70px 0;
+    }
+
+    .inloop{
+        text-align: center;
+    }
+
+    .owl-prev {
+        left: -35px;
+    }
+
+    .owl-next {
+        right: -35px;
+    }
+
+    .img-lazer-completo {
+        position: initial;
+        left: 0;
+        top: 0;
+        width: 50%;
+        margin-top: 70px;
+    }
+
+
+    iframe{
+        width: 85vw;
+    }
+
+    .programa-casa-verde-amarela,
+    .form-cadastro.after-banner{
+        padding: 70px 0;
+    }
+
+    .aptos img {
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width: 991px) {
+    .navbar .navbar-collapse{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1023px){
+    .navbar-toggle {
+        display: none;
+    }
+    .navbar .navbar-collapse{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .solucoes .tecnologia {
+        margin-left: 0;
+    }
+
+    .navbar-toggle {
+        background: transparent;
+        border: none;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .img-lazer-completo {
+        left: 0;
+    }
+
+    .lazer-completo .txt-detail {
+        bottom: 120px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .navbar .link-whatsapp {
+        top: 8vh;
+    }
+}
+
+@media only screen and (min-width: 1690px) {
+    .navbar .link-whatsapp {
+        top: 0;
+    }
+}
+
+
+/* form loading action */
+
+a{
+    cursor: pointer !important;
+}
+
+.-loading {
+    position: relative;
+}.-loading *{
+    opacity: 0.6;
+    pointer-events: none;
+}.-loading::before{
+    position: absolute;
+    content: "Enviando...";
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    transform: translateX(-50%) translateY(-50%);
+    background-image: url(../img/loading.gif);
+    background-position: center 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: grayscale(1) brightness(1000000);
+}
